@@ -1,0 +1,8 @@
+.contentElems{
+    border: 0.1rem dashed gray;
+    border-radius: 0.25rem;
+    width: 98%;
+    height: 5rem;
+    margin: 2rem 2rem;
+    color: white;
+}

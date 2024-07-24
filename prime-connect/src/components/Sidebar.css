@@ -1,0 +1,92 @@
+.sidebar {
+    width: 15rem;
+    height: 100vh;
+    background-color: whitesmoke;
+    
+    padding: 3px 10px;
+    box-sizing: border-box;
+    
+  }
+  
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.25rem;;
+    height: 5rem;
+  }
+.sidebar-header a{
+   
+    color: rgb(2, 154, 248);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+
+  
+
+  
+.menu {
+    list-style: none;
+    height: 23rem;
+  }
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.sidebar ul li {
+    padding: 0.5rem 0.5rem;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sidebar ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+.sidebar ul li a:hover {
+    color: rgb(2, 154, 248);
+}
+.sidebar ul li .dashboard{
+    color: rgb(2, 154, 248);
+} 
+ 
+.logOut{
+    width: 100%;
+    height: 3rem;
+    
+    
+}
+.profile{
+    width: 100%;
+
+}
+  
+.btnLogout{
+    width: 98%;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+.btnProfile{
+    width: 98%;
+    height: 3rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+
+  
+
+  
